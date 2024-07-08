@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Transection {
     private static final String url = "jdbc:mysql://localhost:3306/lenden";
     private static final String userName = "root";
-    private static final String password = "";
+    private static final String password = "Golu@1234";
 
     public static void main(String[] args) throws Exception {
         try {
