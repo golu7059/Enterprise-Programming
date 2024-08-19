@@ -9,6 +9,13 @@
     "configurations": [
       {
         "type": "java",
+        "name": "Banking",
+        "request": "launch",
+        "mainClass": "Banking",
+        "projectName": ""
+      },
+      {
+        "type": "java",
         "name": "Transection",
         "request": "launch",
         "mainClass": "Transection",
