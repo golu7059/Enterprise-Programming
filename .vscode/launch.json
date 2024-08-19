@@ -1,0 +1,19 @@
+{
+    "type": "java",
+    "name": "Tomcat",
+    "request": "launch",
+    "TomcatHome": "${env:ProgramFiles}/Apache Software Foundation/Apache Tomcat 9.0.54",
+    "pathMappings": {
+      "/": "${workspaceFolder}/WebContent"
+    },
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Transection",
+        "request": "launch",
+        "mainClass": "Transection",
+        "projectName": ""
+      }
+    ],
+   
+  }

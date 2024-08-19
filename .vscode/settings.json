@@ -2,5 +2,8 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
         "/Users/golukumar/code/mysql-connector-j-8.4.0/**/*.jar"
-    ]
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.debug.settings.onBuildFailureProceed": true
 }

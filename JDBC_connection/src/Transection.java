@@ -16,7 +16,7 @@ public class Transection {
         } catch (ClassNotFoundException e) {
             System.out.println(e.getMessage());
         }
-
+        
         // making connection with DB
         try (Connection connection = DriverManager.getConnection(url, userName, password);
             Scanner sc = new Scanner(System.in)) {
