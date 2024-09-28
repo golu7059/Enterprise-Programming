@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example</groupId>
+  <artifactId>SpringContextApp</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>SpringContextApp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+
+    <!--
+      JUnit dependency is for writing unit tests for the application.
+      The scope is set to 'test' to ensure that JUnit is not packaged in the final artifact.
+    -->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- Spring Context -->
+    <!-- Spring Context is the core of the Spring Framework. 
+         It provides the IOC (Inversion of Control) container and other essential features 
+         for building enterprise level applications. -->
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context</artifactId>
+        <version>6.0.0</version> <!-- Use the latest stable version -->
+    </dependency>
+    
+    <!-- Optional Logging Framework -->
+    <!-- slf4j-api is a facade for various logging frameworks. 
+         It provides a common API for logging which can be used across different frameworks. -->
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>2.0.7</version>
+    </dependency>
+
+    <!-- slf4j-simple is a simple logging framework which can be used 
+         instead of other logging frameworks like log4j or logback. -->
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-simple</artifactId>
+        <version>2.0.7</version>
+    </dependency>
+
+  </dependencies>
+</project>
