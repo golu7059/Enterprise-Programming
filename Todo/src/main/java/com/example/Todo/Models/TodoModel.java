@@ -1,3 +1,4 @@
+package com.example.Todo.Models;
 public class TodoModel {
     private int id;
     private String content;
@@ -7,7 +8,7 @@ public class TodoModel {
         this.content = content;
     }
 
-    pubilc TodoModel() {
+    public TodoModel() {
 
     }
 
